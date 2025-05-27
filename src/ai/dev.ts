@@ -1,1 +1,5 @@
-// Flows will be imported for their side effects in this file.
+import { config } from 'dotenv';
+config();
+
+import '@/ai/flows/generate-snippet-from-description.ts';
+import '@/ai/flows/enhance-code-snippet.ts';
